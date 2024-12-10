@@ -1,0 +1,103 @@
+@use "./rubik-font.scss" as *;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .heading-32 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .heading-24 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .heading-20 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .heading-18 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .body-24 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .body-24-medium {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .body-20 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .body-20-medium {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .body-16 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .body-16-medium {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .body-14 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .body-14-medium {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .body-12 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .body-12-medium {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  @apply body-16 text-white;
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  @apply heading-32;
+}
+
+h2 {
+  @apply heading-24;
+}
+
+h3 {
+  @apply heading-20;
+}
+
+h4 {
+  @apply heading-18;
+}
